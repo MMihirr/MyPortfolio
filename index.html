@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+
+
+  </head>
+  <body>
+    <header class="header container">
+      <nav>
+          <ul class="header__menu">
+              <li>
+                  <a class="header__link" href="#about">About</a>
+              </li>
+              <li><a class="header__link" href="#projects">Projects</a></li>
+              <li>
+                  <a class="header__link" href="#contact">Contact</a>
+              </li>
+              <li class="header__line"></li>
+              <li>
+                  <a class="header__resume btn" href="/Resume.pdf">Resume</a>
+              </li>
+          </ul>
+          <button class="header__bars">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+              <path fill-rule="evenodd" d="M3 6.75A.75.75 0 013.75 6h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 6.75zM3 12a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 12zm0 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z" clip-rule="evenodd" />
+            </svg>
+          </button>
+      </nav>
+     </header>
+     <!-- Mobile Navigation -->
+     <div class="mobile-nav">
+          <nav>
+              <ul class="mobile-nav__menu">
+                  <li>
+                      <a class="mobile-nav__link" href="#about">About</a>
+                  </li>
+                  <li>
+                      <a class="mobile-nav__link" href="#projects">Projects</a>
+                  </li>
+                  <li>
+                      <a class="mobile-nav__link" href="#contact">Contact</a>
+                  </li>
+                  <li class="mobile-nav__link-line"></li>
+                  <li>
+                      <a class="mobile-nav__btn btn" href="/Resume.pdf" target="_blank">Resume</a>
+                  </li>
+              </ul>
+          </nav>
+     </div>
+     <!-- End of Mobile Navigation -->
+     <main>
+      <section class="hero container">
+          <img class="hero__img" src="images/Mihir-Profile-pic.jpg" alt="Profile Pic">
+          <h2 class="hero__subtitle">Hi, I'm Mihir</h2>
+          <h1 class="hero__title">Software <br> Developer</h1>
+          <p class="hero__description">A passionate <strong>Frontend / Full Stack Developer</strong> specialized in building attractive websites/applications</p>
+          <a class="hero__btn btn" href="mailto:mihirskumar295@gmail.com" target="_blank">Reach Out</a>
+      </section>
+      <section id="about" class="about container section" data-aos="fade-up">
+          <div class="about__content">
+              <h2 class="about__heading">About</h2>
+              <p class="about__description">Hi, Myself Mihir Kumar, a <strong>Frontend / Full Stack Software Developer.</strong><br>I have <strong>1 year of experience</strong> in angular framework.</p>
+              <p class="about__description">I'm currently look for a job. I consider myself as a quick learner and really willing to learn new things. </p>
+              <p class="about__description">I try to make Attractive, Cool Looking and Responsive Website.</p>
+              <hr class="about__hr">
+              <h3>Skills</h3>
+              <div class="about__ul-container">
+                  <ul class="about__ul">
+                      <li class="about__list">HTML</li>
+                      <li class="about__list">CSS</li>
+                      <li class="about__list">TypeScript</li>
+                      
+                  </ul>
+                  <ul class="about__ul">
+                      <li class="about__list">Angular</li>
+                      <li class="about__list">GIT</li>
+                      <li class="about__list">Software Testing</li>
+                  </ul>
+              </div>    
+          </div>
+          <div class="about__img-wrapper">
+              <img class="about__img" src="/images/Mihir.jpg" alt="">
+          </div>
+          
+      </section>
+  
+      <section id="projects" class="work container section" data-aos="fade-up">
+          <h2  class="work__title">Projects</h2>
+          <p class="work__description">Here are some of the key projects I worked on during my time at my previous company.</p>
+          <div class="work__container">
+              <!--Project 1 -->
+  
+              <h3 class="work__project-title">B2C Online Shopping App</h3>
+              <div class="work__img-wrapper work__image1">
+                  
+                <video id="projectVideo1" class="work__video" muted>
+                    <source src="images/glint-app-vid.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+              </div>
+              <div class="work__project work__content1">
+                  <h3 class="work__project-subtitle">
+                    B2C Online Shopping App
+                  </h3>
+                  <p class="work__project-description">
+                    I contributed to the development of the B2C Online Shopping App, focusing on building responsive and dynamic user interfaces using Angular. My role involved creating intuitive frontend features while also assisting with backend functionality to ensure smooth data flow and integration.And did testing for more efficient and user-friendly shopping experience.
+                  </p>
+                  <a class="work__project-btn btn" href="https://qa.cloudshops.app" target="_blank">View</a>
+                  
+              </div>
+              
+  
+              <!--Project 2 -->
+  
+              <h3 class="work__project-title">B2C Admin Website</h3>
+              <div class="work__img-wrapper work__image2">
+                <video id="projectVideo2" class="work__video" muted>
+                    <source src="images/glint-admin-vid.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+              </div>
+              <div class="work__project work__content2">
+                  <h3 class="work__project-subtitle">
+                    B2C Admin Website
+                  </h3>
+                  <p class="work__project-description">
+
+                    I played a key role in developing the B2C Admin Website, where I focused on building and optimizing the frontend using Angular. I also contributed to backend functionality, ensuring seamless interaction between the user interface and the server. And did testing to enhanced the site's usability and improved administrative efficiency.
+                   
+                  </p>
+              <a class="work__project-btn btn" href="https://qa.business.cloudshops.app" target="_blank">View</a>
+              </div>
+              
+  
+              <!--Project 3 -->
+              <h3 class="work__project-title">Online Toys Shop</h3>
+              <div class="work__img-wrapper work__image3">
+                <video id="projectVideo3" class="work__video" muted>
+                    <source src="images/colourcubs-vid.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+              </div>
+              <div class="work__project work__content3">
+                  <h3 class="work__project-subtitle">
+                    Online Toys Shop
+                  </h3>
+                  <p class="work__project-description">
+                    I was involved in the development of the Colourcubs website, where I focused on creating responsive and engaging user interfaces using Angular. Additionally, I contributed to backend functionality to ensure smooth integration and optimal performance. And did testing to enhance the website's user experience and overall functionality.  
+                  </p>
+                  <a class="work__project-btn btn" href="https://colourcubs.com/" target="_blank">View</a>
+              </div>
+  
+              
+              <!--Project 4 -->
+  
+              <h3 class="work__project-title">Portfolio</h3>
+              <div class="work__img-wrapper work__image4">
+                <video id="projectVideo4" class="work__video" muted>
+                    <source src="images/portfolio-vid.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+              </div>
+              <div class="work__project work__content4">
+                  <h3 class="work__project-subtitle">
+                      Portfolio
+                  </h3>
+                  <p class="work__project-description">
+                    Using HTML, CSS and JavaScript created my responsive portfolio website, added really cool buttons, patterns and custom scrollbar also making it interactive and responsive for every screen size. 
+                  </p>
+              <a class="work__project-btn btn" href="https://github.com/MMihirr/Portfolio" target="_blank">View</a>
+              </div>
+  
+          </div>
+          
+  
+      </section>
+      <section id="contact" class="contact container section" data-aos="fade-up">
+          <h2 class="contact__title">
+              Get In Contact
+          </h2>
+          <p class="contact__description">
+              I'm curently looking for a job, if you like my work and
+              want me to work with your team, my inbox is always open so feel free to reach out and
+              I will get back to you as soon as possible. 
+          </p>
+          <a 
+          class="contact__btn btn" href="mailto:mihirskumar295@gmail.com" target="_blank"> 
+          Reach Out</a>
+  
+      </section>
+     </main>
+     <footer class="footer container section">
+      <h3 class="footer__title">
+         ~ MIHIR KUMAR ~
+      </h3>
+     </footer>
+    <script type="module" src="./src/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script>
+        const videos = document.querySelectorAll('.work__video');
+    
+        const playVideos = (entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.play();
+                } else {
+                    entry.target.pause();
+                }
+            });
+        };
+    
+        const observer = new IntersectionObserver(playVideos, { threshold: 0.5 });
+    
+        videos.forEach(video => {
+            observer.observe(video);
+        });
+    </script>
+  </body>
+</html>
